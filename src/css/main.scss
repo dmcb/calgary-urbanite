@@ -1,0 +1,710 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 10pt;
+    color: #5F5F64;
+    background-color: #fff;
+    line-height: 1.7;
+    letter-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    font-weight: normal;
+    color: #D5639F;
+}
+
+a:hover {
+    text-decoration: underline;
+    outline: 0;
+}
+
+a img {
+    border-style: none;
+}
+
+p + p {
+    margin-top: 20px;
+}
+
+blockquote {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+ul, ol {
+    margin-left: 1em;
+    margin-bottom: 8px;
+    padding-left: 36px;
+}
+
+hr {
+    margin: 10px 0px;
+    background-color: #dedede;
+    height: 1px;
+    border: none;
+    clear: both;
+}
+
+h1, h2 {
+    clear: both;
+}
+
+h1{
+    font-size: 32pt;
+    font-weight: normal;
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 9pt;
+}
+
+h1 a, h2 a, h3 a
+{
+    display: block;
+}
+
+table, tr, td {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+tr.data:hover {
+    background: url(../images/table_highlight.png) repeat;
+}
+
+tr.data td {
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 0 10px 0 0;
+}
+
+tr.data td:first-child {
+    white-space: normal;
+    width: 100%;
+}
+
+tr.data td:last-child {
+    padding: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table form {
+    margin-bottom: 0;
+}
+
+form div.forminput .error {
+    margin-left: 320px;
+}
+
+form table {
+    width: 620px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    clear: both;
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form.collapsible {
+    clear: both;
+    background-color: #EFEFEF;
+    margin: 0 -10px 2px -10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+form.collapsible legend {
+    font-size: 12pt;
+    padding: 10px;
+    margin: 0;
+}
+
+label {
+    width: 150px;
+    float: left;
+    margin: 0 10px 0 160px;
+    display: block;
+}
+
+input, select, textarea, button, .button, div.pagination li a, div.pagination li b, .autocomplete {
+    color: #5F5F64;
+    padding: 2px;
+    margin-bottom: 2px;
+    height: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+input.sameline {
+    margin-left: 320px;
+}
+
+input.text, .autocomplete {
+    border: 1px solid #E0D9D1;
+    width: 294px;
+}
+
+.button, div.pagination li a {
+    color: #fff;
+    background-color: #D5639F;
+    border: none;
+    width: 280px;
+    text-align: left;
+    padding: 5px 10px;
+    font-family: Georgia;
+    font-size: 10pt;
+    height: auto;
+    display: block;
+}
+
+div.pagination li a {
+    width: auto;
+}
+
+a.button , div.pagination li a{
+    padding: 2px 10px;
+}
+
+a.button.narrow {
+    width: 120px;
+}
+
+div.forminput input.button, div.foruminput input.sameline  {
+    margin-left: 320px;
+}
+
+div.forminput input.button {
+    width: 300px;
+}
+
+input.checkbox {
+    margin-bottom: 6px;
+}
+
+.button:hover, div.pagination li a b {
+    background-color: #E8A8CA;
+    text-decoration: none;
+}
+
+.button:active {
+    background-color: #E8A8CA;
+}
+
+input.hidden {
+    display: none;
+}
+
+select {
+    width: 300px;
+}
+
+td select {
+    width: 150px;
+}
+
+textarea {
+    height: 160px;
+    overflow: auto;
+    width: 614px;
+    border: 1px solid #E0D9D1;
+}
+
+textarea.page_editor, textarea.post_editor, textarea.template_editor {
+    width: 614px;
+    height: 300px;
+}
+
+iframe {
+    border: 0;
+}
+
+#facebook {
+    clear: both;
+    padding-top: 20px;
+}
+
+.autocomplete {
+    position: absolute;
+    background-color: #fff;
+    height: auto;
+    margin-left: 320px;
+}
+
+.autocomplete ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.autocomplete ul li {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.autocomplete ul li.selected {
+    background-color: #D5639F;
+    color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.separator {
+    clear: both;
+}
+
+.notice, .formnotes {
+    clear: both;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: #DEDEDE;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.small {
+    font-size: 8pt;
+}
+
+.large {
+    font-size: 12pt
+}
+
+.narrow {
+    width: 120px;
+}
+
+.wide {
+    width: 206px;
+}
+
+.restricted {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.error {
+    font-size: 8pt;
+    color: #D5639F;
+}
+
+.important fieldset {
+    border-color: #FF0000;
+}
+
+.important a {
+    color: #FF0000;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    color: #FFA541;
+}
+
+.spacer {
+    clear: both;
+    height: 30px;
+}
+
+.avatar {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.waiver {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10000;
+    background: none;
+    background: rgba(0,0,0,0.75);
+}
+
+.waiver_body {
+    margin: auto;
+    width: 480px;
+    text-align: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 100px;
+    -moz-box-shadow: 0 0 32px #000;
+    -webkit-box-shadow: 0 0 32px #000;
+    box-shadow: 0 0 32px #000;
+    border: 1px #ccc solid;
+}
+
+.waiver_body h2 {
+    width: 100%;
+}
+
+.waiver_body p {
+    margin-bottom: 32px;
+}
+
+.waiver_body .button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#waiver_loading, #waiver_error {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: auto;
+}
+
+html {
+    min-height:100%;
+    height:auto;
+}
+
+body {
+    min-height:100%;
+    height:auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Page layout */
+
+div.content {
+    display: block;
+    min-height:100%;
+    height:auto;
+    position: absolute;
+    width: 100%;
+    min-width: 980px;
+}
+
+div.main {
+    position: relative;
+}
+
+div.wrapper, div.wrapped {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    padding: 0 10px;
+    height: 100%;
+}
+
+div.menus {
+    background-color: #A3DF71;
+    border-bottom: 16px solid #54B7EB;
+    height: 32px;
+}
+
+div.menus a {
+    color: #fff;
+    padding: 10px 10px;
+    display: block;
+    height: 28px;
+    width: 140px;
+    float: left;
+    overflow: hidden;
+    font-size: 10pt;
+}
+
+div.menus a:active, div.menus a.selected {
+    background-color: #54B7EB;
+}
+
+div.header img {
+    vertical-align: middle;
+}
+
+div.page {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.pagepadding {
+    float: left;
+    width: 100%;
+    height: 292px;
+}
+
+div.footer {
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+div.footer div.trim div.wrapper {
+    height: 48px;
+    background: url(../../includes/images/skyline.png) no-repeat center bottom;
+}
+
+div.footer div.bottom {
+    background-color: #DEDEDE;
+    border-top: 16px solid #D5639F;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+}
+
+div.watermark {
+    display: inline-block;
+    position: relative;
+    width: 81px;
+    height: 30px;
+    top: 5px;
+    background: url(../../includes/images/dmcb_design.png);
+}
+
+/* Layout of items across pages */  
+
+div.pagination {
+    clear: both;
+    height: 20px;
+    padding-top: 20px;
+}
+
+div.pagination ul   {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.pagination li {
+    display: inline;
+}
+
+div.pagination li b {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding: 3px 5px 3px 5px;
+    background-color: #E8A8CA;
+    margin-left: 3px;
+}
+
+div.pagination li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding: 3px 5px 3px 5px;
+    background-color: #D5639F;
+    margin-left: 3px;
+}
+
+div.pagination li a:hover {
+    background-color: #E8A8CA;
+}
+
+.two, .three, .four, .five, .six , .leftcolumn, .centercolumnlarge{
+    float: left;
+}   
+
+.two {
+    margin-left: 150px;
+}
+
+.three {
+    margin-left: 310px; 
+}
+
+.four {
+    margin-left: 470px; 
+}
+
+.five {
+    margin-left: 630px; 
+}
+
+.six {
+    margin-left: 790px; 
+}
+
+.single {
+    width: 160px;
+}
+
+.double {
+    width: 320px;
+}
+
+.triple {
+    width: 480px;
+}
+
+.quad {
+    width: 640px;
+}
+
+.single.column, .single.leftedge, .single.rightedge {
+    width: 140px;
+}
+
+.double.column, .double.leftedge, .double.rightedge, .leftcolumn {
+    width: 300px;
+}
+
+.triple.column, .triple.leftedge, .triple.rightedge {
+    width: 460px;
+}
+
+.quad.column, .quad.leftedge, .quad.rightedge, .centercolumnlarge {
+    width: 620px;
+}
+
+.column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leftedge, .leftcolumn {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.rightedge, .centercolumnlarge {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+div.panel {
+    width: auto; 
+    height: auto;
+    overflow: hidden; 
+}
+
+div.alwaysopen {
+    width: auto;
+    height: auto;
+}
+
+form.collapsible div.panel {
+    padding: 10px;
+}
+
+div.items {
+    margin-left: 320px;
+}
+
+div.comments {
+    margin-top: 40px;
+}
+
+div.comment {
+    clear: both;
+}
+
+div.logo {
+    padding: 20px 0 0 0;
+}
+
+div.article {
+    padding: 20px 0 0 0;
+}
+
+div.article a, div.information a {
+    color: #54B7EB;
+}
+
+div.admin {
+    padding-top: 40px;
+}
+
+div.side {
+    background-color: #E0D9D1;
+    float: right;
+    margin: 16px 0 16px 16px;
+    padding: 16px;
+    min-width: 240px;
+}
+
+div.border {
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;   
+}
+
+.listing {
+    clear: both;
+}
+
+.listing img {
+    margin: 0 10px 10px 0;
+}
+
+.preview img {
+    float: right;
+    margin: 0 0 16px 16px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;   
+}
