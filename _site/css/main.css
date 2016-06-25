@@ -374,16 +374,24 @@ div.menus {
 
 div.menus a {
   color: #fff;
-  padding: 10px 10px;
+  padding: 5px 10px;
   display: block;
   height: 28px;
-  width: 140px;
   float: left;
   overflow: hidden;
   font-size: 10pt; }
 
-div.menus a:active, div.menus a.selected {
+div.menus a:active, div.menus a.selected, div.menus a:hover {
   background-color: #54B7EB; }
+
+div.menus div.mainmenu ul.menu {
+  padding: 0;
+  margin: 0; }
+
+div.menus div.mainmenu ul.menu li {
+  display: inline; }
+  div.menus div.mainmenu ul.menu li:last-child a {
+    float: right; }
 
 div.header img {
   vertical-align: middle; }
