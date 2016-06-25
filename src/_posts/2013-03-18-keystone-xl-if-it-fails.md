@@ -60,7 +60,7 @@ css: "div.title {
                                                                                                                                                                                                                background-color: #666;
                                                                                                                                                                                                             }
                                                                             div.footer div.trim div.wrapper {
-                                                                               background: url('http://calgaryurbanite.com/file/post/20101219/ifad/skyline_grey.png') no-repeat center bottom;
+                                                                               background: url('/file/post/20101219/ifad/skyline_grey.png') no-repeat center bottom;
                                                                             }"
 cssfiles:
 js: ""

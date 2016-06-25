@@ -26,13 +26,13 @@ div.footer div.bottom {
    border-top: 16px solid #b99c76;
 }
 div.footer div.trim div.wrapper {
-   background: url('http://calgaryurbanite.com/file/post/20110810/left-leaning-news-medias-dead/skyline_beige.png') no-repeat center bottom;
+   background: url('/file/post/20110810/left-leaning-news-medias-dead/skyline_beige.png') no-repeat center bottom;
 }
 div.footer a {
    color: #C17E2A;
 }
 div.watermark {
-   background: url(http://calgaryurbanite.com/file/post/20110810/left-leaning-news-medias-dead/dmcb_design_c17e2a.png);
+   background: url('/file/post/20110810/left-leaning-news-medias-dead/dmcb_design_c17e2a.png);
 }
 div.menus {
    background-color: #3f301d;
