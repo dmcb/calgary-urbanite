@@ -1,5 +1,6 @@
 ---
 title: "The Hikes, vol. 1"
+image: six_glaciers.140.100.jpg
 css: "h1 {
    display: none;
 }

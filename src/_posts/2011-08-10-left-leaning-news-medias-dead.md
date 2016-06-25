@@ -1,5 +1,6 @@
 ---
 title: "The Notion Of A Left Leaning News Media Is Dead"
+image: news.140.100.jpg
 css: "body {
    background-color: #dfc6a7;
 }

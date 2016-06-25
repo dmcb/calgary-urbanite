@@ -1,5 +1,6 @@
 ---
 title: "The Hikes, vol. 2"
+image: temple.140.100.jpg
 css: "h1 {
     display: none;
  }

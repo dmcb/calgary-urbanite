@@ -1,5 +1,6 @@
 ---
 title: "Recycling Without the Blue Box"
+image: blue_box_action.140.100.png
 css: "div.main div.wrapper {
            margin: 0;
            padding: 0;

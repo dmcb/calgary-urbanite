@@ -1,5 +1,6 @@
 ---
 title: "Social Media Denial"
+image: lilac.140.100.jpg
 css: "div.article a {
                    color: #D5639F;
                 }

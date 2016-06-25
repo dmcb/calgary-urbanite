@@ -1,5 +1,6 @@
 ---
 title: "Open Data - What It Is and Why You Want It"
+image: picture.140.100.jpg
 css: "body {
            background: url(/file/post/20110526/open-data-why-you-want-it/computer.jpg) no-repeat center 490px;
         }

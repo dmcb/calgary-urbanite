@@ -1,5 +1,6 @@
 ---
 title: "The Purple Revolution"
+image: nenshi_endorsement.140.100.jpg
 css: "body {
            background: url('/file/post/20101202/the-purple-revolution/nenshi_background.jpg') no-repeat 50% 48px #381742;
         }

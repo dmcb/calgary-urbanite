@@ -1,5 +1,6 @@
 ---
 title: "The Black Hole of Canada's 41st Election"
+image: dark_parliament.140.100.jpg
 css: "body {
            background-color: #dedede;
         }

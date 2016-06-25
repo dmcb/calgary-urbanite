@@ -1,5 +1,6 @@
 ---
 title: "When is Enough, Enough? Weaselhead Flats and the Ring Road"
+image: flats.140.100.jpg
 css: "body {
                    background: url('/file/post/20110222/weaselhead-flats-ring-road/flats.jpg') repeat-x top center #8a7862;
                 }

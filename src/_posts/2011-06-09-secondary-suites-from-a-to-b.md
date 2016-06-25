@@ -1,5 +1,6 @@
 ---
 title: "Secondary Suites: Getting from A to B"
+image: sign_small.140.100.png
 css: "div.main {
                    background: url(/file/post/20110609/secondary-suites-from-a-to-b/arrow.gif) no-repeat center -20px;
                 }

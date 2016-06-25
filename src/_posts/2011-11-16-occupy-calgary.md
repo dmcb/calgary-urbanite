@@ -1,5 +1,6 @@
 ---
 title: "Thoughts From Another Armchair Quarterback of Occupy Calgary"
+image: occupy.140.100.png
 css: "#facebook {
                    margin-left: 150px;
                 }"

@@ -1,5 +1,6 @@
 ---
 title: "Instant Gratification Suicide"
+image: flossers.140.100.jpg
 css: "body {
            background-color: #d0d4df;
         }

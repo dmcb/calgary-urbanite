@@ -1,5 +1,6 @@
 ---
 title: "How You Can (and why you should) Make Government Work"
+image: maple-madness.140.100.jpg
 css: "body {
            /* background: url('/file/post/20110415/you-can-make-government-work/maple_background.jpg') no-repeat fixed top center; */
         }

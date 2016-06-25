@@ -1,5 +1,6 @@
 ---
 title: "All Quiet About Consumption"
+image: best_buy_express.140.100.jpg
 css: "h1 {
            display: none;
         }

@@ -1,5 +1,6 @@
 ---
 title: "5 Things Bringing Us Closer to the Future of WALL-E"
+image: wall-e-small.140.100.png
 css: "h1, div.article h2 {
            text-transform: uppercase;
         }

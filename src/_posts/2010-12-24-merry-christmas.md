@@ -1,5 +1,6 @@
 ---
 title: "Merry Christmas"
+image: candle_small.140.100.jpg
 css: "body {
            background: url('/file/post/20101224/merry-christmas/candle.jpg') no-repeat 50% 48px #000;
         }

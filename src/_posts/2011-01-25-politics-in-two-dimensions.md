@@ -1,5 +1,6 @@
 ---
 title: "Politics in Two Dimensions"
+image: two_dimension.140.100.png
 css: "div.main {
            background: url('/file/post/20110125/politics-in-two-dimensions/protractor.png') no-repeat center 27px;
         }
