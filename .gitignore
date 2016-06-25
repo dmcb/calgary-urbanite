@@ -1,0 +1,11 @@
+# Ignore junk
+.DS_Store*
+Thumbs.db
+.sass-cache
+config.codekit
+assets/js/lib
+node_modules
+npm-debug.log
+
+# Ignore Jekyll generated files
+_site
