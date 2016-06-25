@@ -66,6 +66,7 @@ css: "body {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
 jsfiles:
+ - museo_500_400font_.js
 ---
 <div class="quad column two">
 <h2>This was originally written much, much differently...</h2>

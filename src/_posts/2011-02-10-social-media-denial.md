@@ -23,6 +23,7 @@ css: "div.article a {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
 jsfiles:
+ - museo_500_400font_.js
 ---
 <div class="two quad">
 <h2>Is social media influential?</h2>

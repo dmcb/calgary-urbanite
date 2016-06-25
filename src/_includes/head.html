@@ -25,7 +25,7 @@
   </script>
 
   {% for jsfile in page.jsfiles %}
-  <script src="{{ jsfile }}" type="text/javascript"></script>
+  <script src="/file/post{{ page.url }}{{ jsfile }}" type="text/javascript"></script>
   {% endfor %}
 
   <!-- typekit -->

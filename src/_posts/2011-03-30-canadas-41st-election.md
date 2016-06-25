@@ -63,6 +63,7 @@ css: "body {
 cssfiles:
 js: "Cufon.replace('div.giantimage p, div.article h2, div.article span.intro');"
 jsfiles:
+ - headline_two_400font_.js
 ---
 <div class="top">
 <div class="giantimage">&nbsp;</div>

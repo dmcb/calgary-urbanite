@@ -20,6 +20,7 @@ css: "div.main {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
 jsfiles:
+ - jbetude_400.js
 ---
 <div class="triple leftedge left">
 <p>If you don't know about the Alberta Party, they are now Alberta's fourth opposition party in the Legislature, after <a href="http://www.cbc.ca/canada/calgary/story/2011/01/24/calgary-taylor-mla-alberta-party.html">former Liberal Dave Taylor crossed the floor</a> to become their first sitting MLA. They define themselves as a centrist party, 'picking-and-choosing' the best policy of the political spectrum, attracting members from all occupations and of all political stripes, and reaching out to young and disenfranchised Albertans, while no longer playing politics-as-usual. Sounds good doesn't it? It does and it doesn't. Their ability to reach out to Albertans who have never involved themselves in politics is fantastic, but the Alberta Party has marketed themselves as a party that is 'post-partisan', as if they are somehow above the banging-your-head-against-the-wall political game that the other parties engage in. As we've seen today&nbsp;with Dave Taylor's floor crossing, that rosy message is already starting to wilt after one day of the party having an active MLA.</p>

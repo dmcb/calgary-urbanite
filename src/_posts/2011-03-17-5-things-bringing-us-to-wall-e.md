@@ -10,6 +10,7 @@ css: "h1, div.article h2 {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
 jsfiles:
+ - nevis_700font_.js
 ---
 <div class="triple leftedge">
 <p>For those of you who haven't seen the movie WALL-E, it's a story set in the future where Earth no longer has the capacity to sustain life. The atmosphere is toxic. Garbage dwarfs our infrastructure. Chemical spills plague the Earth. Soils are incapable of yielding plant growth. Humans have rendered the Earth uninhabitable. We only manage to survive the catastrophe by living in an artifical environment aboard a spaceship.  Could this really be our future? Due to my affinity for Pixar movies, and that the future presented in the movie is plausible, I often approach issues looking to answer the question "would this bring us a step closer to WALL-E?". I think everyone should take that approach, because there's a lot of evidence to suggest that the future presented in WALL-E is happening right before us.</p>

@@ -49,6 +49,7 @@ css: "body {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
 jsfiles:
+ - coolvetica_rg_400font.js
 ---
 <h1>When is enough, enough?</h1>
 <h2>It's time to talk about the southwest ring road, again</h2>

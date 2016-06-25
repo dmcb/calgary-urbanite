@@ -41,7 +41,8 @@ css: "body {
         }"
 cssfiles:
 js: "Cufon.replace('h1, div.article h2');"
-jsfiles:
+jsfiles: 
+ - delicious_500font_.js
 ---
 <div class="triple rightedge right">
 <p>I knew once <a href="/20110330/canadas-41st-election">I broke my silence on federal politics on this site</a>, the floodgates would open. Rest assured this will be my final article on the topic this election and far more positive than my last one!<br /><br /></p>

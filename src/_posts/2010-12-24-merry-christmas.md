@@ -43,7 +43,7 @@ css: "body {
 cssfiles:
 js: "Cufon.replace('h1, div.article h2, div.article h3');"
 jsfiles:
- - /file/post/20101224/merry-christmas/christmas_card_400.js
+ - christmas_card_400.js
 ---
 <p>I'm spending some quality time with family and friends these few days before embarking on a little vacation to soggy southern California. I wanted to wish everyone and a Merry Christmas and a Happy New Year, while I pause and reflect on 2010.</p>
 <p>&nbsp;</p>

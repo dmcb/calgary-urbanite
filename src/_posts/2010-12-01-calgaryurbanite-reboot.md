@@ -62,6 +62,7 @@ css: "div.main div.wrapper {
 cssfiles:
 js: "Cufon.replace('h1');"
 jsfiles:
+ - pen_of_truth_400font_.js
 ---
 <div class="oldurbanite">
 <div class="block">
